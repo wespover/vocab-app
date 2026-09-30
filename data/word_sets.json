@@ -66,7 +66,7 @@
       {
         "id": "fruit_apricot",
         "word": "Apricot",
-        "transcription": "апрыкот",
+        "transcription": "апрыкат",
         "translation_ua": "Абрикос",
         "translation_ru": "Абрикос",
         "date_added": "2026-09-30",
@@ -175,7 +175,7 @@
         "transcription": "пинк",
         "translation_ua": "Рожевий",
         "translation_ru": "Розовый",
-        "date_added": "2026-09-01",
+        "date_added": "2026-09-30",
         "audio": "assets/audio/pink.mp3",
         "image": "assets/images/pink.webp"
       },
