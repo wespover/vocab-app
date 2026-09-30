@@ -1,0 +1,290 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+    overflow: hidden;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    color: #0f172a;
+}
+
+.inv-btn {
+    background: none;
+    border: none;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* ==========================================================================
+   Navbar
+   ========================================================================== */
+.navbar {
+    text-align: center;
+    background-color: #2563eb;
+    width: 100%;
+}
+
+.nav-bar-btn {
+    color: #ffffff;
+    font-size: 3rem;
+    padding-bottom: 5px;
+    font-weight: bold;
+    transition: transform 0.15s ease-out, opacity 0.15s ease-out;
+}
+
+.nav-bar-btn::after {
+    content: '▾';
+    font-size: 0.8em;
+    opacity: 0.85;
+}
+
+.nav-bar-btn:active {
+    opacity: 0.7;
+    transform: scale(0.93);
+    transition: transform 0s, opacity 0s;
+}
+
+/* ==========================================================================
+   Main Card
+   ========================================================================== */
+.card {
+    text-align: center;
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 420px;
+    max-height: 100%;
+    padding: 28px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px -5px rgba(15, 23, 42, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.word-count {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #64748b;
+    background-color: #f1f5f9;
+    padding: 4px 12px;
+    border-radius: 20px;
+}
+
+.word-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+    margin: 8px 0 4px;
+}
+
+.word-image:not([src]), 
+.word-image[src=""] {
+    display: none;
+}
+
+.word {
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: 0.75;
+}
+
+.transcription {
+    font-size: 0.95rem;
+    font-weight: 500;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+.ua-translation {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #0f172a;
+    line-height: 0.9;
+}
+
+.ru-translation {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #64748b;
+    margin-bottom: -12px;
+}
+
+/* ==========================================================================
+   Card Controls
+   ========================================================================== */
+.audio-btn {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #2563eb;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: -12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.audio-btn:hover {
+    background-color: #1d4ed8;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.audio-btn:active {
+    background-color: #1e40af;
+    transform: scale(0.98);
+    transition: transform 0s;
+}
+
+.word-btns {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-top: 12px;
+}
+
+.prev-word-btn,
+.next-word-btn {
+    flex: 1;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    padding-bottom: 3px;
+    font-size: 2.2rem;
+    color: #ffffff;
+    background-color: #2563eb;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px -5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.prev-word-btn:hover,
+.next-word-btn:hover {
+    background-color: #1d4ed8;
+}
+
+.prev-word-btn:active,
+.next-word-btn:active {
+    background-color: #1e40af;
+    transform: scale(0.97);
+    transition: transform 0s;
+}
+
+/* ==========================================================================
+   Modal
+   ========================================================================== */
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(15, 23, 42, 0.65);
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-card {
+    background-color: #ffffff;
+    padding: 32px 32px 32px 32px;
+    padding-top: 16px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 650px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.35);
+    animation: modal-pop 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.modal-header {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.modal-grid {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+/* ==========================================================================
+Wordset
+========================================================================== */
+
+.wordset-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    gap: 8px;
+    width: 100%;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    background-color: #f8fafc;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    transition: transform 0s;
+}
+
+.wordset-btn:active {
+    border-color: #2563eb;
+    background-color: #eff6ff;
+    transform: scale(0.95);
+}
+
+.wordset-icon {
+    font-size: 1.8rem;
+}
+
+.wordset-title {
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* ==========================================================================
+Misc
+========================================================================== */
+.hidden {
+    display: none;
+}
+
+@keyframes modal-pop {
+    from {
+        opacity: 0;
+        transform: scale(0.92) translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}

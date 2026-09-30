@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <button id="navbar_btn" class="nav-bar-btn inv-btn">
+            <h1>NEW</h1>
+        </button>
+    </header>
+    
+    <main>
+        <div class="card">
+            <h3 id="word_count" class="word-count"></h3>
+            <h1 id="word" class="word"></h1>
+            <h3 id="transcription" class="transcription"></h3>
+            <div id="ua_translation" class="ua-translation"></div>
+            <div id="ru_translation" class="ru-translation"></div>
+            <img id="word_image" class="word-image" src="" alt="Слово"/>
+            <button id="audio_btn" class="audio-btn">Прослухати</button>
+            <div class="word-btns">
+                <button id="prev_word_btn" class="prev-word-btn">❮</button>
+                <button id="next_word_btn" class="next-word-btn">❯</button>
+            </div>
+        </div>
+    </main>
+
+    <div id="modal_overlay" class="modal-overlay hidden">
+        <div class="modal-card">
+            <h2 class="modal-header">Оберіть набір слів 📚</h2>
+            <div id="modal_grid" class="modal-grid"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

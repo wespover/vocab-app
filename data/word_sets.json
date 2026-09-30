@@ -1,0 +1,224 @@
+[
+  {
+    "title": "Фрукти",
+    "icon": "🍎",
+    "words": [
+      {
+        "id": "fruit_apple",
+        "word": "Apple",
+        "transcription": "эпл",
+        "translation_ua": "Яблуко",
+        "translation_ru": "Яблоко",
+        "date_added": "2026-09-30",
+        "audio": "assets/audio/apple.mp3",
+        "image": "assets/images/apple.webp"
+      },
+      {
+        "id": "fruit_banana",
+        "word": "Banana",
+        "transcription": "бэнэна",
+        "translation_ua": "Банан",
+        "translation_ru": "Банан",
+        "date_added": "2026-09-30",
+        "audio": "assets/audio/banana.mp3",
+        "image": "assets/images/banana.webp"
+      },
+      {
+        "id": "fruit_pear",
+        "word": "Pear",
+        "transcription": "пэр",
+        "translation_ua": "Груша",
+        "translation_ru": "Груша",
+        "date_added": "2026-09-30",
+        "audio": "assets/audio/pear.mp3",
+        "image": "assets/images/pear.webp"
+      },
+      {
+        "id": "fruit_orange",
+        "word": "Orange",
+        "transcription": "орэндж",
+        "translation_ua": "Апельсин",
+        "translation_ru": "Апельсин",
+        "date_added": "2026-09-30",
+        "audio": "assets/audio/orange.mp3",
+        "image": "assets/images/fruit_orange.webp"
+      },
+      {
+        "id": "fruit_lemon",
+        "word": "Lemon",
+        "transcription": "лэмэн",
+        "translation_ua": "Лимон",
+        "translation_ru": "Лимон",
+        "date_added": "2026-09-30",
+        "audio": "assets/audio/lemon.mp3",
+        "image": "assets/images/lemon.webp"
+      },
+      {
+        "id": "fruit_peach",
+        "word": "Peach",
+        "transcription": "пич",
+        "translation_ua": "Персик",
+        "translation_ru": "Персик",
+        "date_added": "2026-09-30",
+        "audio": "assets/audio/peach.mp3",
+        "image": "assets/images/peach.webp"
+      },
+      {
+        "id": "fruit_apricot",
+        "word": "Apricot",
+        "transcription": "апрыкот",
+        "translation_ua": "Абрикос",
+        "translation_ru": "Абрикос",
+        "date_added": "2026-09-30",
+        "audio": "assets/audio/apricot.mp3",
+        "image": "assets/images/apricot.webp"
+      },
+      {
+        "id": "fruit_grape",
+        "word": "Grape",
+        "transcription": "грэйп",
+        "translation_ua": "Виноград",
+        "translation_ru": "Виноград",
+        "date_added": "2026-09-30",
+        "audio": "assets/audio/grape.mp3",
+        "image": "assets/images/grape.webp"
+      },
+      {
+        "id": "fruit_watermelon",
+        "word": "Watermelon",
+        "transcription": "ватэрмэлэн",
+        "translation_ua": "Кавун",
+        "translation_ru": "Арбуз",
+        "date_added": "2026-09-30",
+        "audio": "assets/audio/watermelon.mp3",
+        "image": "assets/images/watermelon.webp"
+      },
+      {
+        "id": "fruit_strawberry",
+        "word": "Strawberry",
+        "transcription": "стробэри",
+        "translation_ua": "Полуниця",
+        "translation_ru": "Клубника",
+        "date_added": "2026-09-30",
+        "audio": "assets/audio/strawberry.mp3",
+        "image": "assets/images/strawberry.webp"
+      }
+    ]
+  },
+  {
+    "title": "Кольори",
+    "icon": "🎨",
+    "words": [
+      {
+        "id": "color_red",
+        "word": "Red",
+        "transcription": "рэд",
+        "translation_ua": "Червоний",
+        "translation_ru": "Красный",
+        "date_added": "2026-09-30",
+        "audio": "assets/audio/red.mp3",
+        "image": "assets/images/red.webp"
+      },
+      {
+        "id": "color_orange",
+        "word": "Orange",
+        "transcription": "орэндж",
+        "translation_ua": "Помаранчевий",
+        "translation_ru": "Оранжевый",
+        "date_added": "2026-09-30",
+        "audio": "assets/audio/orange.mp3",
+        "image": "assets/images/color_orange.webp"
+      },
+      {
+        "id": "color_yellow",
+        "word": "Yellow",
+        "transcription": "йелоу",
+        "translation_ua": "Жовтий",
+        "translation_ru": "Желтый",
+        "date_added": "2026-09-30",
+        "audio": "assets/audio/yellow.mp3",
+        "image": "assets/images/yellow.webp"
+      },
+      {
+        "id": "color_green",
+        "word": "Green",
+        "transcription": "грин",
+        "translation_ua": "Зелений",
+        "translation_ru": "Зеленый",
+        "date_added": "2026-09-30",
+        "audio": "assets/audio/green.mp3",
+        "image": "assets/images/green.webp"
+      },
+      {
+        "id": "color_blue",
+        "word": "Blue",
+        "transcription": "блу",
+        "translation_ua": "Блакитний / Синій",
+        "translation_ru": "Голубой / Синий",
+        "date_added": "2026-09-30",
+        "audio": "assets/audio/blue.mp3",
+        "image": "assets/images/blue.webp"
+      },
+      {
+        "id": "color_violet",
+        "word": "Violet",
+        "transcription": "вайалэт",
+        "translation_ua": "Фіолетовий",
+        "translation_ru": "Фиолетовый",
+        "date_added": "2026-09-30",
+        "audio": "assets/audio/violet.mp3",
+        "image": "assets/images/violet.webp"
+      },
+      {
+        "id": "color_pink",
+        "word": "Pink",
+        "transcription": "пинк",
+        "translation_ua": "Рожевий",
+        "translation_ru": "Розовый",
+        "date_added": "2026-09-01",
+        "audio": "assets/audio/pink.mp3",
+        "image": "assets/images/pink.webp"
+      },
+      {
+        "id": "color_purple",
+        "word": "Purple",
+        "transcription": "пёрпл",
+        "translation_ua": "Пурпурний",
+        "translation_ru": "Пурпурный",
+        "date_added": "2026-09-30",
+        "audio": "assets/audio/purple.mp3",
+        "image": "assets/images/purple.webp"
+      },
+      {
+        "id": "color_white",
+        "word": "White",
+        "transcription": "вайт",
+        "translation_ua": "Білий",
+        "translation_ru": "Белый",
+        "date_added": "2026-09-30",
+        "audio": "assets/audio/white.mp3",
+        "image": "assets/images/white.webp"
+      },
+      {
+        "id": "color_grey",
+        "word": "Grey / Gray",
+        "transcription": "грэй",
+        "translation_ua": "Сірий",
+        "translation_ru": "Серый",
+        "date_added": "2026-09-30",
+        "audio": "assets/audio/grey.mp3",
+        "image": "assets/images/grey.webp"
+      },
+      {
+        "id": "color_black",
+        "word": "Black",
+        "transcription": "блэк",
+        "translation_ua": "Чорний",
+        "translation_ru": "Черный",
+        "date_added": "2026-09-30",
+        "audio": "assets/audio/black.mp3",
+        "image": "assets/images/black.webp"
+      }
+    ]
+  }
+]
