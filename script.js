@@ -14,12 +14,38 @@ const NavBarBtn = document.getElementById('navbar_btn');
 const ModalOverlay = document.getElementById('modal_overlay');
 const ModalGrid = document.getElementById('modal_grid');
 
-const DEFAULT_DAYS_LIMIT = 7;
+const LearnModeButton = document.getElementById('learn_mode_btn');
+const QuizModeButton = document.getElementById('quiz_mode_btn');
+
+const DEFAULT_DAYS_LIMIT = 1;
 const DEFAULT_ICON = '📚';
 const DEFAULT_TITLE = "Помилка"
 
 let CurrentWordSet;
 let CurrentAudio;
+let CurrentMode;
+
+function SwitchAppMode(newMode) {
+    if (CurrentMode === newMode) return;
+
+    CurrentMode = newMode;
+
+    if (CurrentMode === 'learn') {
+        LearnModeButton.classList.add('active');
+        QuizModeButton.classList.remove('active');
+        WordElement.classList.remove('hidden');
+        TranscriptionElement.classList.remove('hidden');
+        UaTranslationElement.classList.remove('hidden');
+        RuTranslationElement.classList.remove('hidden');
+    } else if (CurrentMode === 'quiz') {
+        QuizModeButton.classList.add('active');
+        LearnModeButton.classList.remove('active');
+        WordElement.classList.add('hidden');
+        TranscriptionElement.classList.add('hidden');
+        UaTranslationElement.classList.add('hidden');
+        RuTranslationElement.classList.add('hidden');
+    }
+}
 
 async function ReadJSON(path) {
   try {
@@ -122,6 +148,9 @@ async function Init() {
 
 NextWordBtn.addEventListener("click", () => ShiftWord(1))
 PrevWordBtn.addEventListener("click", () => ShiftWord(-1))
+
+LearnModeButton.addEventListener('click', () => SwitchAppMode('learn'));
+QuizModeButton.addEventListener('click', () => SwitchAppMode('quiz'));
 
 NavBarBtn.addEventListener('click', () => ModalOverlay.classList.remove('hidden'))
 

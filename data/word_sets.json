@@ -106,6 +106,254 @@
     ]
   },
   {
+    "title": "Овочі",
+    "icon": "🥕",
+    "words": [
+      {
+        "id": "veg_potato",
+        "word": "Potato",
+        "transcription": "потейто",
+        "translation_ua": "Картопля",
+        "translation_ru": "Картофель",
+        "date_added": "2026-10-14",
+        "audio": "assets/audio/potato.mp3",
+        "image": "assets/images/potato.webp"
+      },
+      {
+        "id": "veg_tomato",
+        "word": "Tomato",
+        "transcription": "томейто / томато",
+        "translation_ua": "Помідор",
+        "translation_ru": "Помидор",
+        "date_added": "2026-10-14",
+        "audio": "assets/audio/tomato.mp3",
+        "image": "assets/images/tomato.webp"
+      },
+      {
+        "id": "veg_cucumber",
+        "word": "Cucumber",
+        "transcription": "кьюкамбер",
+        "translation_ua": "Огірок",
+        "translation_ru": "Огурец",
+        "date_added": "2026-10-14",
+        "audio": "assets/audio/cucumber.mp3",
+        "image": "assets/images/cucumber.webp"
+      },
+      {
+        "id": "veg_carrot",
+        "word": "Carrot",
+        "transcription": "кэррот",
+        "translation_ua": "Морква",
+        "translation_ru": "Морковь",
+        "date_added": "2026-10-14",
+        "audio": "assets/audio/carrot.mp3",
+        "image": "assets/images/carrot.webp"
+      },
+      {
+        "id": "veg_onion",
+        "word": "Onion",
+        "transcription": "аньйон",
+        "translation_ua": "Цибуля",
+        "translation_ru": "Лук",
+        "date_added": "2026-10-14",
+        "audio": "assets/audio/onion.mp3",
+        "image": "assets/images/onion.webp"
+      },
+      {
+        "id": "veg_garlic",
+        "word": "Garlic",
+        "transcription": "гарлык",
+        "translation_ua": "Часник",
+        "translation_ru": "Чеснок",
+        "date_added": "2026-10-14",
+        "audio": "assets/audio/garlic.mp3",
+        "image": "assets/images/garlic.webp"
+      },
+      {
+        "id": "veg_cabbage",
+        "word": "Cabbage",
+        "transcription": "кэбэдж",
+        "translation_ua": "Капуста",
+        "translation_ru": "Капуста",
+        "date_added": "2026-10-14",
+        "audio": "assets/audio/cabbage.mp3",
+        "image": "assets/images/cabbage.webp"
+      },
+      {
+        "id": "veg_bell_pepper",
+        "word": "Bell pepper",
+        "transcription": "белл пеппер",
+        "translation_ua": "Болгарський перець",
+        "translation_ru": "Болгарский перец",
+        "date_added": "2026-10-14",
+        "audio": "assets/audio/bell_pepper.mp3",
+        "image": "assets/images/bell_pepper.webp"
+      }
+    ]
+  },
+  {
+    "title": "Прикметники",
+    "icon": "✨",
+    "words": [
+      {
+        "id": "adj_big",
+        "word": "Big",
+        "transcription": "быг",
+        "translation_ua": "Великий",
+        "translation_ru": "Большой",
+        "date_added": "2026-10-14",
+        "audio": "assets/audio/big.mp3",
+        "image": "assets/images/big.webp"
+      },
+      {
+        "id": "adj_small",
+        "word": "Small",
+        "transcription": "смол",
+        "translation_ua": "Малий",
+        "translation_ru": "Маленький",
+        "date_added": "2026-10-14",
+        "audio": "assets/audio/small.mp3",
+        "image": "assets/images/small.webp"
+      },
+      {
+        "id": "adj_hot",
+        "word": "Hot",
+        "transcription": "хот",
+        "translation_ua": "Гарячий",
+        "translation_ru": "Горячий",
+        "date_added": "2026-10-14",
+        "audio": "assets/audio/hot.mp3",
+        "image": "assets/images/hot.webp"
+      },
+      {
+        "id": "adj_cold",
+        "word": "Cold",
+        "transcription": "колд",
+        "translation_ua": "Холодний",
+        "translation_ru": "Холодный",
+        "date_added": "2026-10-14",
+        "audio": "assets/audio/cold.mp3",
+        "image": "assets/images/cold.webp"
+      },
+      {
+        "id": "adj_cool",
+        "word": "Cool",
+        "transcription": "кул",
+        "translation_ua": "Крутий / Прохолодний",
+        "translation_ru": "Крутой / Прохладный",
+        "date_added": "2026-10-14",
+        "audio": "assets/audio/cool.mp3",
+        "image": "assets/images/cool.webp"
+      },
+      {
+        "id": "adj_good",
+        "word": "Good",
+        "transcription": "гуд",
+        "translation_ua": "Хороший",
+        "translation_ru": "Хороший",
+        "date_added": "2026-10-14",
+        "audio": "assets/audio/good.mp3",
+        "image": "assets/images/good.webp"
+      },
+      {
+        "id": "adj_bad",
+        "word": "Bad",
+        "transcription": "бэд",
+        "translation_ua": "Поганий",
+        "translation_ru": "Плохой",
+        "date_added": "2026-10-14",
+        "audio": "assets/audio/bad.mp3",
+        "image": "assets/images/bad.webp"
+      },
+      {
+        "id": "adj_fast",
+        "word": "Fast",
+        "transcription": "фаст",
+        "translation_ua": "Швидкий",
+        "translation_ru": "Быстрый",
+        "date_added": "2026-10-14",
+        "audio": "assets/audio/fast.mp3",
+        "image": "assets/images/fast.webp"
+      },
+      {
+        "id": "adj_slow",
+        "word": "Slow",
+        "transcription": "слоу",
+        "translation_ua": "Повільний",
+        "translation_ru": "Медленный",
+        "date_added": "2026-10-14",
+        "audio": "assets/audio/slow.mp3",
+        "image": "assets/images/slow.webp"
+      }
+    ]
+  },
+  {
+    "title": "Напої",
+    "icon": "☕",
+    "words": [
+      {
+        "id": "drink_water",
+        "word": "Water",
+        "transcription": "ватэр",
+        "translation_ua": "Вода",
+        "translation_ru": "Вода",
+        "date_added": "2026-10-14",
+        "audio": "assets/audio/water.mp3",
+        "image": "assets/images/water.webp"
+      },
+      {
+        "id": "drink_tea",
+        "word": "Tea",
+        "transcription": "ти",
+        "translation_ua": "Чай",
+        "translation_ru": "Чай",
+        "date_added": "2026-10-14",
+        "audio": "assets/audio/tea.mp3",
+        "image": "assets/images/tea.webp"
+      },
+      {
+        "id": "drink_coffee",
+        "word": "Coffee",
+        "transcription": "кофи",
+        "translation_ua": "Кава",
+        "translation_ru": "Кофе",
+        "date_added": "2026-10-14",
+        "audio": "assets/audio/coffee.mp3",
+        "image": "assets/images/coffee.webp"
+      },
+      {
+        "id": "drink_juice",
+        "word": "Juice",
+        "transcription": "джьюс",
+        "translation_ua": "Сік",
+        "translation_ru": "Сок",
+        "date_added": "2026-10-14",
+        "audio": "assets/audio/juice.mp3",
+        "image": "assets/images/juice.webp"
+      },
+      {
+        "id": "drink_milk",
+        "word": "Milk",
+        "transcription": "мылк",
+        "translation_ua": "Молоко",
+        "translation_ru": "Молоко",
+        "date_added": "2026-10-14",
+        "audio": "assets/audio/milk.mp3",
+        "image": "assets/images/milk.webp"
+      },
+      {
+        "id": "drink_kefir",
+        "word": "Kefir",
+        "transcription": "кефір",
+        "translation_ua": "Кефір",
+        "translation_ru": "Кефир",
+        "date_added": "2026-10-14",
+        "audio": "assets/audio/kefir.mp3",
+        "image": "assets/images/kefir.webp"
+      }
+    ]
+  },
+  {
     "title": "Кольори",
     "icon": "🎨",
     "words": [
