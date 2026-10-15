@@ -17,7 +17,7 @@ const ModalGrid = document.getElementById('modal_grid');
 const LearnModeButton = document.getElementById('learn_mode_btn');
 const QuizModeButton = document.getElementById('quiz_mode_btn');
 
-const DEFAULT_DAYS_LIMIT = 1;
+const DEFAULT_DAYS_LIMIT = 3;
 const DEFAULT_ICON = '📚';
 const DEFAULT_TITLE = "Помилка"
 
