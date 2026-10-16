@@ -198,7 +198,7 @@
       {
         "id": "adj_big",
         "word": "Big",
-        "transcription": "быг",
+        "transcription": "биг",
         "translation_ua": "Великий",
         "translation_ru": "Большой",
         "date_added": "2026-10-14",
@@ -350,6 +350,268 @@
         "date_added": "2026-10-14",
         "audio": "assets/audio/kefir.mp3",
         "image": "assets/images/kefir.webp"
+      }
+    ]
+  },
+  {
+    "title": "Напрямки",
+    "icon": "🧭",
+    "words": [
+      {
+        "id": "dir_left",
+        "word": "Left",
+        "transcription": "лэфт",
+        "translation_ua": "Ліворуч",
+        "translation_ru": "Налево",
+        "date_added": "2026-10-16",
+        "audio": "assets/audio/left.mp3",
+        "image": "assets/images/left.webp"
+      },
+      {
+        "id": "dir_right",
+        "word": "Right",
+        "transcription": "райт",
+        "translation_ua": "Праворуч",
+        "translation_ru": "Направо",
+        "date_added": "2026-10-16",
+        "audio": "assets/audio/right.mp3",
+        "image": "assets/images/right.webp"
+      },
+      {
+        "id": "dir_up",
+        "word": "Up",
+        "transcription": "ап",
+        "translation_ua": "Вгору",
+        "translation_ru": "Вверх",
+        "date_added": "2026-10-16",
+        "audio": "assets/audio/up.mp3",
+        "image": "assets/images/up.webp"
+      },
+      {
+        "id": "dir_down",
+        "word": "Down",
+        "transcription": "даун",
+        "translation_ua": "Вниз",
+        "translation_ru": "Вниз",
+        "date_added": "2026-10-16",
+        "audio": "assets/audio/down.mp3",
+        "image": "assets/images/down.webp"
+      },
+      {
+        "id": "dir_forward",
+        "word": "Forward",
+        "transcription": "форвард",
+        "translation_ua": "Вперед",
+        "translation_ru": "Вперед",
+        "date_added": "2026-10-16",
+        "audio": "assets/audio/forward.mp3",
+        "image": "assets/images/forward.webp"
+      },
+      {
+        "id": "dir_backward",
+        "word": "Backward / Back",
+        "transcription": "бэквард / бэк",
+        "translation_ua": "Назад",
+        "translation_ru": "Назад",
+        "date_added": "2026-10-16",
+        "audio": "assets/audio/backward.mp3",
+        "image": "assets/images/backward.webp"
+      },
+      {
+        "id": "dir_north",
+        "word": "North",
+        "transcription": "норф",
+        "translation_ua": "Північ",
+        "translation_ru": "Север",
+        "date_added": "2026-10-16",
+        "audio": "assets/audio/north.mp3",
+        "image": "assets/images/north.webp"
+      },
+      {
+        "id": "dir_south",
+        "word": "South",
+        "transcription": "сауф",
+        "translation_ua": "Південь",
+        "translation_ru": "Юг",
+        "date_added": "2026-10-16",
+        "audio": "assets/audio/south.mp3",
+        "image": "assets/images/south.webp"
+      },
+      {
+        "id": "dir_east",
+        "word": "East",
+        "transcription": "ист",
+        "translation_ua": "Схід",
+        "translation_ru": "Восток",
+        "date_added": "2026-10-16",
+        "audio": "assets/audio/east.mp3",
+        "image": "assets/images/east.webp"
+      },
+      {
+        "id": "dir_west",
+        "word": "West",
+        "transcription": "вест",
+        "translation_ua": "Захід",
+        "translation_ru": "Запад",
+        "date_added": "2026-10-16",
+        "audio": "assets/audio/west.mp3",
+        "image": "assets/images/west.webp"
+      }
+    ]
+  },
+  {
+    "title": "Частини тіла",
+    "icon": "👤",
+    "words": [
+      {
+        "id": "body_head",
+        "word": "Head",
+        "transcription": "хед",
+        "translation_ua": "Голова",
+        "translation_ru": "Голова",
+        "date_added": "2026-10-16",
+        "audio": "assets/audio/head.mp3",
+        "image": "assets/images/head.webp"
+      },
+      {
+        "id": "body_hair",
+        "word": "Hair",
+        "transcription": "хэр",
+        "translation_ua": "Волосся",
+        "translation_ru": "Волосы",
+        "date_added": "2026-10-16",
+        "audio": "assets/audio/hair.mp3",
+        "image": "assets/images/hair.webp"
+      },
+      {
+        "id": "body_eye",
+        "word": "Eye",
+        "transcription": "ай",
+        "translation_ua": "Око",
+        "translation_ru": "Глаз",
+        "date_added": "2026-10-16",
+        "audio": "assets/audio/eye.mp3",
+        "image": "assets/images/eye.webp"
+      },
+      {
+        "id": "body_ear",
+        "word": "Ear",
+        "transcription": "ир",
+        "translation_ua": "Вухо",
+        "translation_ru": "Ухо",
+        "date_added": "2026-10-16",
+        "audio": "assets/audio/ear.mp3",
+        "image": "assets/images/ear.webp"
+      },
+      {
+        "id": "body_nose",
+        "word": "Nose",
+        "transcription": "ноуз",
+        "translation_ua": "Ніс",
+        "translation_ru": "Нос",
+        "date_added": "2026-10-16",
+        "audio": "assets/audio/nose.mp3",
+        "image": "assets/images/nose.webp"
+      },
+      {
+        "id": "body_mouth",
+        "word": "Mouth",
+        "transcription": "маус",
+        "translation_ua": "Рот",
+        "translation_ru": "Рот",
+        "date_added": "2026-10-16",
+        "audio": "assets/audio/mouth.mp3",
+        "image": "assets/images/mouth.webp"
+      },
+      {
+        "id": "body_tongue",
+        "word": "Tongue",
+        "transcription": "танг",
+        "translation_ua": "Язик",
+        "translation_ru": "Язык",
+        "date_added": "2026-10-16",
+        "audio": "assets/audio/tongue.mp3",
+        "image": "assets/images/tongue.webp"
+      },
+      {
+        "id": "body_neck",
+        "word": "Neck",
+        "transcription": "нек",
+        "translation_ua": "Шия",
+        "translation_ru": "Шея",
+        "date_added": "2026-10-16",
+        "audio": "assets/audio/neck.mp3",
+        "image": "assets/images/neck.webp"
+      },
+      {
+        "id": "body_chest",
+        "word": "Chest",
+        "transcription": "чест",
+        "translation_ua": "Груди",
+        "translation_ru": "Грудь",
+        "date_added": "2026-10-16",
+        "audio": "assets/audio/chest.mp3",
+        "image": "assets/images/chest.webp"
+      },
+      {
+        "id": "body_back",
+        "word": "Back",
+        "transcription": "бэк",
+        "translation_ua": "Спина",
+        "translation_ru": "Спина",
+        "date_added": "2026-10-16",
+        "audio": "assets/audio/back.mp3",
+        "image": "assets/images/body_back.webp"
+      },
+      {
+        "id": "body_arm",
+        "word": "Arm",
+        "transcription": "арм",
+        "translation_ua": "Рука",
+        "translation_ru": "Рука",
+        "date_added": "2026-10-16",
+        "audio": "assets/audio/arm.mp3",
+        "image": "assets/images/arm.webp"
+      },
+      {
+        "id": "body_hand",
+        "word": "Hand",
+        "transcription": "хэнд",
+        "translation_ua": "Кисть / Рука",
+        "translation_ru": "Кисть / Рука",
+        "date_added": "2026-10-16",
+        "audio": "assets/audio/hand.mp3",
+        "image": "assets/images/hand.webp"
+      },
+      {
+        "id": "body_leg",
+        "word": "Leg",
+        "transcription": "лег",
+        "translation_ua": "Нога",
+        "translation_ru": "Нога",
+        "date_added": "2026-10-16",
+        "audio": "assets/audio/leg.mp3",
+        "image": "assets/images/leg.webp"
+      },
+      {
+        "id": "body_knee",
+        "word": "Knee",
+        "transcription": "нии",
+        "translation_ua": "Коліно",
+        "translation_ru": "Колено",
+        "date_added": "2026-10-16",
+        "audio": "assets/audio/knee.mp3",
+        "image": "assets/images/knee.webp"
+      },
+      {
+        "id": "body_foot",
+        "word": "Foot",
+        "transcription": "фут",
+        "translation_ua": "Стопа / Нога",
+        "translation_ru": "Стопа / Нога",
+        "date_added": "2026-10-16",
+        "audio": "assets/audio/foot.mp3",
+        "image": "assets/images/foot.webp"
       }
     ]
   },
