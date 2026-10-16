@@ -25,9 +25,22 @@ let CurrentWordSet;
 let CurrentAudio;
 let CurrentMode;
 
+function GetShuffledSet(wordSet) {
+    const shuffledWords = [...wordSet.words];
+    
+    for (let i = shuffledWords.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffledWords[i], shuffledWords[j]] = [shuffledWords[j], shuffledWords[i]];
+    }
+
+    return {
+        ...wordSet,
+        words: shuffledWords
+    };
+}
+
 function SwitchAppMode(newMode) {
     if (CurrentMode === newMode) return;
-
     CurrentMode = newMode;
 
     if (CurrentMode === 'learn') {
@@ -35,15 +48,13 @@ function SwitchAppMode(newMode) {
         QuizModeButton.classList.remove('active');
         WordElement.classList.remove('hidden');
         TranscriptionElement.classList.remove('hidden');
-        UaTranslationElement.classList.remove('hidden');
-        RuTranslationElement.classList.remove('hidden');
     } else if (CurrentMode === 'quiz') {
         QuizModeButton.classList.add('active');
         LearnModeButton.classList.remove('active');
         WordElement.classList.add('hidden');
         TranscriptionElement.classList.add('hidden');
-        UaTranslationElement.classList.add('hidden');
-        RuTranslationElement.classList.add('hidden');
+
+        SetWordSet(CurrentWordSet); // Shuffles the set
     }
 }
 
@@ -84,25 +95,25 @@ if (newWords.length > 0) {
 return wordSets;
 }
 
-function SetWordSet(word_set) {
-  CurrentWordSet = word_set;
-  NavBarBtn.textContent = word_set.title || DEFAULT_TITLE;
-  SetWord(word_set.words[0]);
+function SetWordSet(wordSet) {
+  CurrentWordSet = CurrentMode === "quiz" ? GetShuffledSet(wordSet) : wordSet;
+  NavBarBtn.textContent = wordSet.title || DEFAULT_TITLE;
+  SetWord(CurrentWordSet.words[0]);
 }
 
-function SetWord(word_entry) {
+function SetWord(wordEntry) {
   const totalWords = CurrentWordSet.words.length;
-  const wordIndex = CurrentWordSet.words.findIndex((item) => item.id == word_entry.id);
+  const wordIndex = CurrentWordSet.words.findIndex((item) => item.id == wordEntry.id);
   
   WordCountElement.textContent = `${wordIndex+1} / ${totalWords}`
   
-  WordElement.textContent = word_entry.word;
-  WordElement.dataset.wordId = word_entry.id; 
-  WordImage.src = word_entry.image || "";
-  WordImage.alt = word_entry.word;
-  TranscriptionElement.textContent = word_entry.transcription;
-  UaTranslationElement.textContent = `🇺🇦 ${word_entry.translation_ua} 🇺🇦`;
-  RuTranslationElement.textContent = `🇷🇺 ${word_entry.translation_ru} 🇷🇺`;
+  WordElement.textContent = wordEntry.word;
+  WordElement.dataset.wordId = wordEntry.id; 
+  WordImage.src = wordEntry.image || "";
+  WordImage.alt = wordEntry.word;
+  TranscriptionElement.textContent = wordEntry.transcription;
+  UaTranslationElement.textContent = `🇺🇦 ${wordEntry.translation_ua} 🇺🇦`;
+  RuTranslationElement.textContent = `🇷🇺 ${wordEntry.translation_ru} 🇷🇺`;
 }
 
 function ShiftWord(shift) {
